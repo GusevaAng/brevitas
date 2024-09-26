@@ -2,7 +2,9 @@ import React, { useContext, useMemo, useState } from 'react'
 import styles from './SomeSection.module.css'
 import { ThemeContext } from '../../../../store/ThemeContext'
 import { cn } from '../../../../constants'
-import examples1 from '../../../../assets/main-page/examples1.jpg';
+import examples1 from '../../../../assets/main-page/examples1.jpg'
+import examples2 from '../../../../assets/main-page/examples2.jpg'
+import examples3 from '../../../../assets/main-page/examples3.jpg'
 
 
 console.log(__dirname, `dirname`)
@@ -19,13 +21,13 @@ const SomeSection = () => {
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptas obcaecati labore nam vitae. Nihil tenetur, accusantium sequi autem quis impedit dignissimos corrupti recusandae, quibusdam blanditiis nostrum.'
         },
         {
-            src: '/examples2.jpg',
+            src: examples2,
             alt: 'examples 2',
             title: 'Some Title Here Two',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptas obcaecati labore nam vitae. Nihil tenetur, accusantium sequi autem quis impedit dignissimos corrupti recusandae, quibusdam.'
         },
         {
-            src: '/examples3.jpg',
+            src: examples3,
             alt: 'examples 3',
             title: 'Some Title Here Three',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptas obcaecati labore nam vitae. Nihil tenetur, accusantium sequi autem quis impedit dignissimos corrupti recusandae, quibusdam. Lorem ipsum dolor sit.'

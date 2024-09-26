@@ -5,6 +5,8 @@ import { ScrollContext } from '../../../../store/ScrollContext'
 import { ThemeContext } from '../../../../store/ThemeContext'
 import { Switch } from '@mui/material'
 import { cn } from '../../../../constants'
+import icon_light_theme from '../../../../assets/main-page/icon-light-theme.png'
+import icon_dark_theme from '../../../../assets/main-page/icon-dark-theme.png'
 
 
 const Header = () => {
@@ -20,7 +22,7 @@ const Header = () => {
             boxShadow: theme === 'light' ? '0 1px 1px 0 rgba(0, 0, 0, 0.1)' : '0 1px 1px 0 rgba(0, 0, 0, 0.1)',
             border: theme === 'light' ? '1px solid #676770' : '1px solid white',
             backgroundColor: theme === 'light' ? '#ffffff' : '#222222',
-            backgroundImage: theme === 'light' ?  'url(/icon-light-theme.png)' : 'url(/icon-dark-theme.png)',
+            backgroundImage: theme === 'light' ?  `url(${icon_light_theme})` : `url(${icon_dark_theme})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
         },
