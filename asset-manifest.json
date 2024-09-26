@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/brevitas/static/css/main.683ec6e4.css",
-    "main.js": "/brevitas/static/js/main.82131930.js",
+    "main.js": "/brevitas/static/js/main.6921d841.js",
     "static/js/453.0f1203f3.chunk.js": "/brevitas/static/js/453.0f1203f3.chunk.js",
     "static/media/background-sign-up.jpg": "/brevitas/static/media/background-sign-up.dac139879bd634c2ce06.jpg",
     "static/media/background-registration-success.jpg": "/brevitas/static/media/background-registration-success.20ad5f631af5ef0a378f.jpg",
     "static/media/background-sign-in.jpg": "/brevitas/static/media/background-sign-in.a8ff121d5890522e6983.jpg",
     "static/media/background-account.jpg": "/brevitas/static/media/background-account.b8071f6b7aa4333207d0.jpg",
+    "static/media/examples3.jpg": "/brevitas/static/media/examples3.101dfc1dd8f0536e1c78.jpg",
     "static/media/examples1.jpg": "/brevitas/static/media/examples1.b580e7ce6bf0017b19cf.jpg",
     "static/media/services-two.jpg": "/brevitas/static/media/services-two.a6917aeefb35afb008fe.jpg",
+    "static/media/examples2.jpg": "/brevitas/static/media/examples2.5bb7f8de89421207a5a4.jpg",
     "static/media/services-one.jpg": "/brevitas/static/media/services-one.45c8730a5d980e1fbd43.jpg",
     "static/media/welcome.jpg": "/brevitas/static/media/welcome.fcb49f421515eaf12959.jpg",
     "static/media/icon-vk.svg": "/brevitas/static/media/icon-vk.88f2419bf4bc4f4def3f70cf7ca3346e.svg",
@@ -17,11 +19,11 @@
     "static/media/icon-telegram.svg": "/brevitas/static/media/icon-telegram.3c9a332eb421780f44d1553f9128ffc4.svg",
     "index.html": "/brevitas/index.html",
     "main.683ec6e4.css.map": "/brevitas/static/css/main.683ec6e4.css.map",
-    "main.82131930.js.map": "/brevitas/static/js/main.82131930.js.map",
+    "main.6921d841.js.map": "/brevitas/static/js/main.6921d841.js.map",
     "453.0f1203f3.chunk.js.map": "/brevitas/static/js/453.0f1203f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.683ec6e4.css",
-    "static/js/main.82131930.js"
+    "static/js/main.6921d841.js"
   ]
 }
