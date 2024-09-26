@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import styles from './App.module.css'
 import Main from './pages/Main/Main'
 import SignIn from './pages/SignIn/SignIn'
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className={styles.container}>
       <ThemeProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path='/' element={ <Main /> }/>
             <Route path='sign-in' element={ <SignIn /> } />
@@ -20,7 +20,7 @@ const App = () => {
             <Route path='/registration-success' element={ <RegistrationSuccess /> } />
             <Route path='/account' element={ <Account /> } />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>
     </div>
   )
