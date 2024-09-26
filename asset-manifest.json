@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/brevitas/static/css/main.683ec6e4.css",
+    "main.js": "/brevitas/static/js/main.049b7192.js",
+    "static/js/453.0f1203f3.chunk.js": "/brevitas/static/js/453.0f1203f3.chunk.js",
+    "static/media/background-sign-up.jpg": "/brevitas/static/media/background-sign-up.dac139879bd634c2ce06.jpg",
+    "static/media/background-registration-success.jpg": "/brevitas/static/media/background-registration-success.20ad5f631af5ef0a378f.jpg",
+    "static/media/background-sign-in.jpg": "/brevitas/static/media/background-sign-in.a8ff121d5890522e6983.jpg",
+    "static/media/background-account.jpg": "/brevitas/static/media/background-account.b8071f6b7aa4333207d0.jpg",
+    "static/media/services-two.jpg": "/brevitas/static/media/services-two.a6917aeefb35afb008fe.jpg",
+    "static/media/services-one.jpg": "/brevitas/static/media/services-one.45c8730a5d980e1fbd43.jpg",
+    "static/media/welcome.jpg": "/brevitas/static/media/welcome.fcb49f421515eaf12959.jpg",
+    "static/media/icon-vk.svg": "/brevitas/static/media/icon-vk.88f2419bf4bc4f4def3f70cf7ca3346e.svg",
+    "static/media/icon-google.svg": "/brevitas/static/media/icon-google.8075535b4a8fe0a927bdf2d9c177e0ed.svg",
+    "static/media/icon-tiktok.svg": "/brevitas/static/media/icon-tiktok.06da5fcb2f1afbff6343ceab7cf52a31.svg",
+    "static/media/icon-telegram.svg": "/brevitas/static/media/icon-telegram.3c9a332eb421780f44d1553f9128ffc4.svg",
+    "index.html": "/brevitas/index.html",
+    "main.683ec6e4.css.map": "/brevitas/static/css/main.683ec6e4.css.map",
+    "main.049b7192.js.map": "/brevitas/static/js/main.049b7192.js.map",
+    "453.0f1203f3.chunk.js.map": "/brevitas/static/js/453.0f1203f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.683ec6e4.css",
+    "static/js/main.049b7192.js"
+  ]
+}
