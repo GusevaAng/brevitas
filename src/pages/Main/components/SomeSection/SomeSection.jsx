@@ -10,7 +10,7 @@ const SomeSection = () => {
 
     const examples = useMemo(() => [
         {
-            src: '/src/assets/main-page/examples1.jpg',
+            src: '/public/examples1.jpg',
             alt: 'examples 1',
             title: 'Some Title Here One',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente voluptas obcaecati labore nam vitae. Nihil tenetur, accusantium sequi autem quis impedit dignissimos corrupti recusandae, quibusdam blanditiis nostrum.'
