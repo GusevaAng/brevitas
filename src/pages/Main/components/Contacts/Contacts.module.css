@@ -1,0 +1,345 @@
+
+
+@media (min-width: 769px) and (orientation: landscape) {
+
+    .container {
+        max-width: 970px;
+        max-height: 200px;
+        margin: 30px auto;
+        padding-top: 70px;
+        height: 480px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: space-around;
+        
+    }
+
+    .informations {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        font-weight: 400;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 18px;
+        line-height: 111%;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+    }
+
+    .title.light {
+        color: #676770;
+    }
+
+    .title.dark {
+        color: #e9e9e9;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 179%;
+    }
+
+    .description.light {
+        color: #6a859c;
+    }
+
+    .description.dark {
+        color: #8f8f8f;
+    }
+
+    .socials {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+        font-weight: 400;
+    }
+
+    .socials h4 {
+        margin: 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 111%;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+    }
+
+    .socials.light h4 {
+        color: #676770;
+    }
+
+    .socials.dark h4 {
+        color: #e9e9e9;
+    }
+
+    .telegram ,
+    .vk ,
+    .tiktok ,
+    .google {
+        margin-top: 14px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .socials.light .telegram ,
+    .socials.light .vk ,
+    .socials.light .tiktok ,
+    .socials.light .google {
+        color: #6a859c;
+    }
+
+    .socials.dark .telegram ,
+    .socials.dark .vk ,
+    .socials.dark .tiktok ,
+    .socials.dark .google {
+        color: #8f8f8f;
+    }
+
+    .telegram img , 
+    .vk img ,
+    .tiktok img , 
+    .google img {
+        height: 16px;
+    }
+}
+
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .container {
+        max-width: 670px;
+        max-height: 200px;
+        margin: 20px auto;
+        padding-top: 40px;
+        height: 430px;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .informations {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        font-weight: 400;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 16px;
+        line-height: 111%;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+    }
+
+    .title.light {
+        color: #676770;
+    }
+
+    .title.dark {
+        color: #e9e9e9;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 179%;
+    }
+
+    .description.light {
+        color: #6a859c;
+    }
+
+    .description.dark {
+        color: #8f8f8f;
+    }
+
+    .socials {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        min-width: 200px;
+        font-weight: 400;
+    }
+
+    .socials h4 {
+        margin: 0px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 111%;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+    }
+
+    .socials.light h4 {
+        color: #676770;
+    }
+
+    .socials.dark h4 {
+        color: #e9e9e9;
+    }
+
+    .telegram ,
+    .vk ,
+    .tiktok ,
+    .google {
+        margin-top: 14px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .socials.light .telegram ,
+    .socials.light .vk ,
+    .socials.light .tiktok ,
+    .socials.light .google {
+        color: #6a859c;
+    }
+
+    .socials.dark .telegram ,
+    .socials.dark .vk ,
+    .socials.dark .tiktok ,
+    .socials.dark .google {
+        color: #8f8f8f;
+    }
+
+    .telegram img , 
+    .vk img ,
+    .tiktok img , 
+    .google img {
+        height: 16px;
+    }
+}
+
+
+@media (min-device-width: 320px) and (max-device-height: 940px) and (orientation : portrait) {
+
+    .container {
+        max-width: 370px;
+        margin: 10px auto;
+        padding-top: 20px;
+        height: 230px;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        align-items: flex-start;
+        justify-content: space-around;
+        
+    }
+
+    .informations {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        font-weight: 400;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 13px;
+        line-height: 111%;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+    }
+
+    .title.light {
+        color: #676770;
+    }
+
+    .title.dark {
+        color: #e9e9e9;
+    }
+
+    .description {
+        font-size: 13px;
+        line-height: 179%;
+    }
+
+    .description.light {
+        color: #6a859c;
+    }
+
+    .description.dark {
+        color: #8f8f8f;
+    }
+
+    .socials {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        min-width: 100px;
+        font-weight: 400;
+    }
+
+    .socials h4 {
+        margin: 0px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 111%;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+    }
+
+    .socials.light h4 {
+        color: #676770;
+    }
+
+    .socials.dark h4 {
+        color: #e9e9e9;
+    }
+
+    .telegram ,
+    .vk ,
+    .tiktok ,
+    .google {
+        margin-top: 13px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .socials.light .telegram ,
+    .socials.light .vk ,
+    .socials.light .tiktok ,
+    .socials.light .google {
+        color: #6a859c;
+    }
+
+    .socials.dark .telegram ,
+    .socials.dark .vk ,
+    .socials.dark .tiktok ,
+    .socials.dark .google {
+        color: #8f8f8f;
+    }
+
+    .telegram img , 
+    .vk img ,
+    .tiktok img , 
+    .google img {
+        height: 14px;
+    }
+}
+
+
+

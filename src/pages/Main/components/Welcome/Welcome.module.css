@@ -1,0 +1,232 @@
+
+@media (min-width: 769px) and (orientation: landscape) {
+
+    .welcome {
+        margin: 0;
+        margin-top: 60px;
+        padding: 0;
+        min-height: 500px;
+        color: #f1f4f6;
+        background: #1b1b1b;
+        background-image: url("../../../../assets/main-page/welcome.jpg");
+        background-size: cover;
+        background-position: 10% 30%;
+    }
+
+    .container {
+        max-width: 970px;
+        min-height: 400px;
+        margin: 0 auto;
+        padding: 0 15px;
+        height: 200px;
+    }
+
+    .greeting {
+        margin: 0px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-weight: 400;
+        font-size: 70px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .signUnUp {
+        margin: 10px 0px;
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        height: 60px;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .signIn , 
+    .signUp {
+        padding: 15px 50px;
+        border: solid 2px #f1f4f6;
+        border-radius: 15px;
+        background: #abaaaa35;
+        cursor: pointer;
+    }
+
+    .signIn {
+        box-shadow: -3px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+
+    .signUp {
+        box-shadow: 3px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+    
+    .signIn.light:hover , 
+    .signUp.light:hover {
+        background: #ffffff38;
+        color: #69b9ff;
+    }
+
+    .signIn.dark:hover , 
+    .signUp.dark:hover {
+        background: #2e2e2e38;
+        color: #ce96fb;
+    }
+}
+
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .welcome {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        min-height: 400px;
+        color: #f1f4f6;
+        background-image: url("../../../../assets/main-page/welcome.jpg");
+        background-size: cover;
+        background-position: 10% 30%;
+    }
+
+    .container {
+        max-width: 670px;
+        min-height: 400px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .greeting {
+        margin: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: 400;
+        font-size: 50px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .signUnUp {
+        margin: 10px 0px;
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        height: 60px;
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    .signIn , 
+    .signUp {
+        padding: 15px 50px;
+        border: solid 2px #f1f4f6;
+        border-radius: 15px;
+        background: #abaaaa35;
+        cursor: pointer;
+    }
+
+    .signIn {
+        box-shadow: -3px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+
+    .signUp {
+        box-shadow: 3px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+
+    .signIn.light:hover , 
+    .signUp.light:hover {
+        background: #ffffff38;
+        color: #69b9ff;
+    }
+
+    .signIn.dark:hover , 
+    .signUp.dark:hover {
+        background: #2e2e2e38;
+        color: #ce96fb;
+    }
+}
+
+
+@media (min-device-width: 320px) and (max-device-height: 940px) and (orientation : portrait) {
+
+    .welcome {
+        margin: 0;
+        margin-top: 50px;
+        padding: 0;
+        max-height: 550px;
+        color: #f1f4f6;
+        background-image: url("../../../../assets/main-page/welcome.jpg");
+        background-size: cover;
+        background-position: 10% 30%;
+    }
+
+    .container {
+        max-width: 370px;
+        min-height: 180px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .greeting {
+        margin: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 400;
+        font-size: 22px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .signUnUp {
+        margin: 5px 0px;
+        height: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .signIn , 
+    .signUp {
+        padding: 5px 30px;
+        border: solid 2px #f1f4f6;
+        border-radius: 15px;
+        background: #abaaaa35;
+        cursor: pointer;
+    }
+
+    .signIn {
+        box-shadow: -3px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+
+    .signUp {
+        box-shadow: 3px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+
+    .signIn.light:hover , 
+    .signUp.light:hover {
+        background: #ffffff38;
+        color: #69b9ff;
+    }
+
+    .signIn.dark:hover , 
+    .signUp.dark:hover {
+        background: #2e2e2e38;
+        color: #ce96fb;
+    }
+}
+

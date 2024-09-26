@@ -1,0 +1,329 @@
+
+
+@media (min-width: 769px) and (orientation: landscape) {
+
+    .container {
+        max-width: 970px;
+        min-height: 400px;
+        margin: 50px auto;
+        padding: 0 15px;
+        height: 480px;
+    }
+
+    .container.light {
+        background: #ffffff;
+    }
+
+    .container.dark {
+        background: #222222;
+    }
+
+    .ourOffers {
+        padding-top: 10px;
+        padding-bottom: 40px;
+        height: 70px;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .ourOffers h4 {
+        margin: 0;
+        font-size: 30px;
+        line-height: 120%;
+        letter-spacing: 0.07em;
+    }
+
+    .ourOffers p {
+        line-height: 118%;
+        letter-spacing: 0.18em;
+    }
+
+    .ourOffers.light h4 ,
+    .ourOffers.light p {
+        color: #676770;
+    }
+
+    .ourOffers.dark h4 ,
+    .ourOffers.dark p {
+        color: #f1f1f7;
+    }
+
+    .ourAdvantages {
+        padding: 20px;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qr ,
+    .discount ,
+    .wallet {
+        flex-basis: 33%;
+    }
+
+    .qr img ,
+    .discount img ,
+    .wallet img {
+        height: 96px;
+        width: 96px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qr h5 ,
+    .discount h5 ,
+    .wallet h5 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .qr p ,
+    .discount p ,
+    .wallet p {
+        text-align: center;
+    }
+
+    .ourAdvantages.light .qr h5 ,
+    .ourAdvantages.light .discount h5 ,
+    .ourAdvantages.light .wallet h5 {
+        color: #676770;
+    }
+
+    .ourAdvantages.dark .qr h5 ,
+    .ourAdvantages.dark .discount h5 ,
+    .ourAdvantages.dark .wallet h5 {
+        color: #00bcf9;
+    }
+
+}
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .container {
+        max-width: 670px;
+        min-height: 400px;
+        margin: 30px auto;
+        padding: 0 15px;
+        height: 480px;
+    }
+
+    .container.light {
+        background: #ffffff;
+    }
+
+    .container.dark {
+        background: #222222;
+    }
+
+    .ourOffers {
+        padding-top: 5px;
+        padding-bottom: 25px;
+        height: 70px;
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .ourOffers h4 {
+        margin: 0;
+        font-size: 25px;
+        line-height: 120%;
+        letter-spacing: 0.07em;
+    }
+
+    .ourOffers p {
+        line-height: 118%;
+        letter-spacing: 0.18em;
+    }
+
+    .ourOffers.light h4 ,
+    .ourOffers.light p {
+        color: #676770;
+    }
+
+    .ourOffers.dark h4 ,
+    .ourOffers.dark p {
+        color: #f1f1f7;
+    }
+
+    .ourAdvantages {
+        margin-bottom: 0px;
+        padding: 10px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .qr ,
+    .discount ,
+    .wallet {
+        flex-basis: 33%;
+    }
+
+    .qr img ,
+    .discount img ,
+    .wallet img {
+        height: 76px;
+        width: 76px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qr h5 ,
+    .discount h5 ,
+    .wallet h5 {
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .qr p ,
+    .discount p ,
+    .wallet p {
+        text-align: center;
+    }
+
+    .ourAdvantages.light .qr h5 ,
+    .ourAdvantages.light .discount h5 ,
+    .ourAdvantages.light .wallet h5 {
+        color: #676770;
+    }
+
+    .ourAdvantages.dark .qr h5 ,
+    .ourAdvantages.dark .discount h5 ,
+    .ourAdvantages.dark .wallet h5 {
+        color: #00bcf9;
+    }
+
+}
+
+
+@media (min-device-width: 320px) and (max-device-height: 940px) and (orientation : portrait) {
+
+    .container {
+        max-width: 370px;
+        min-height: 520px;
+        margin: 20px auto;
+        padding: 0 15px;
+        height: 530px;
+    }
+
+    .container.light {
+        background: #ffffff;
+    }
+
+    .container.dark {
+        background: #222222;
+    }
+
+    .ourOffers {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        height: 70px;
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .ourOffers h4 {
+        margin: 0;
+        font-size: 18px;
+        line-height: 120%;
+        letter-spacing: 0.07em;
+    }
+
+    .ourOffers p {
+        line-height: 118%;
+        letter-spacing: 0.18em;
+    }
+
+    .ourOffers.light h4 ,
+    .ourOffers.light p {
+        color: #676770;
+    }
+
+    .ourOffers.dark h4 ,
+    .ourOffers.dark p {
+        color: #f1f1f7;
+    }
+
+    .ourAdvantages {
+        margin-bottom: 0px;
+        padding: 5px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .qr ,
+    .discount ,
+    .wallet {
+        flex-basis: 33%;
+    }
+
+    .qr img ,
+    .discount img ,
+    .wallet img {
+        height: 56px;
+        width: 56px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qr h5 ,
+    .discount h5 ,
+    .wallet h5 {
+        margin: 5px;
+        height: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .qr p ,
+    .discount p ,
+    .wallet p {
+        margin: 0px;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .ourAdvantages.light .qr h5 ,
+    .ourAdvantages.light .discount h5 ,
+    .ourAdvantages.light .wallet h5 {
+        color: #676770;
+    }
+
+    .ourAdvantages.dark .qr h5 ,
+    .ourAdvantages.dark .discount h5 ,
+    .ourAdvantages.dark .wallet h5 {
+        color: #00bcf9;
+    }
+}

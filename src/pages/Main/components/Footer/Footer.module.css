@@ -1,0 +1,54 @@
+
+
+@media (min-width: 769px) and (orientation: landscape) {
+
+    .footer {
+        height: 80px;
+        background: #383838;
+    }
+
+    .footer p {
+        padding-top: 30px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 133%;
+        text-align: center;
+        color: #9e9e9e;
+    }
+}
+
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .footer {
+        height: 60px;
+        background: #383838;
+    }
+
+    .footer p {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 133%;
+        text-align: center;
+        color: #9e9e9e;
+    }
+}
+
+
+@media (min-device-width: 320px) and (max-device-height: 940px) and (orientation : portrait) {
+
+    .footer {
+        height: 40px;
+        background: #383838;
+    }
+
+    .footer p {
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        text-align: center;
+        color: #9e9e9e;
+    }
+}

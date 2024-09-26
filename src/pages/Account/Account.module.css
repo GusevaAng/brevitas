@@ -1,0 +1,92 @@
+
+
+@media (orientation: landscape) {
+
+    .background {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        background-image: url('../../assets/account-page/background-account.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        margin: 1vh;
+        padding: 80px;
+        position: absolute;
+        top: 10%;
+        bottom: 10%;
+        left: 5%;
+        right: 5%;
+        border-radius: 45px;
+        backdrop-filter: blur(20px);
+        background: linear-gradient(134deg, #f4f4f466 0%, #f4f4f433 100%);
+        z-index: 1;
+    }
+    
+    .greetings {
+        font-size: 50px;
+        color: #ffffff;
+        text-shadow: 1px 3px #3838383f;
+    }
+    
+    .textInformation {
+        font-size: 20px;
+        color: #5d485a;
+    }
+
+    .buttonToMain {
+        margin-top: 30px;
+        background: #ffffff3b;
+        color: #5d485a;
+    }
+}
+
+
+
+@media (orientation: portrait) {
+
+    .background {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100%;
+        background-image: url('../../assets/account-page/background-account.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        margin: 1vh;
+        padding: 40px;
+        position: absolute;
+        top: 5%;
+        bottom: 5%;
+        left: 5%;
+        right: 5%;
+        border-radius: 45px;
+        backdrop-filter: blur(20px);
+        background: linear-gradient(134deg, #f4f4f466 0%, #f4f4f433 100%);
+        z-index: 1;
+        text-align: center;
+    }
+    
+    .greetings {
+        font-size: 30px;
+        color: #ffffff;
+        text-shadow: 1px 3px #3838383f;
+    }
+    
+    .textInformation {
+        font-size: 16px;
+        color: #5d485a;
+    }
+
+    .buttonToMain {
+        margin-top: 25px;
+        background: #ffffff3b;
+        color: #5d485a;
+    }
+}

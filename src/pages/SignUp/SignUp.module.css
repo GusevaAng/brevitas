@@ -1,0 +1,446 @@
+
+
+.background {
+    height: 100vh;
+    background: #ededed;
+}
+
+@media (orientation: landscape) {
+    
+    .wrapper {
+        position: relative;
+        height: 96vh;
+    }
+
+    .wrapper img {
+        margin-top: 2vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 98%;
+        width: 98%;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+
+    .container {
+        margin-top: 5vh;
+        position: absolute;
+        z-index: 1;
+        top: 47%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        height: 90%;
+        width: 45%;
+        border-radius: 45px;
+        backdrop-filter: blur(20px);
+        background: linear-gradient(134deg, #f4f4f466 0%, #f4f4f433 100%);
+    }
+
+    .greeting {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .greetingTitle {
+        margin-top: 15px;
+        margin-bottom: 2px;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60%;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #3e3e44;
+    }
+
+    .question {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .questionAboutAccount {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 120%;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fffefe;
+    }
+
+    .signIn {
+        padding: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #e3e3f8;
+    }
+
+    .signIn:hover {
+        color: #222225;
+        background: #e6e6ee44;
+        border-radius: 5px;
+        box-shadow: 0px 3px 7px 0 #a77cf7;    
+        transition: 0.5s;
+    }
+
+    .form {
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name ,
+    .surname ,
+    .login ,
+    .birthday ,
+    .email ,
+    .password {
+        margin-top: 3px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 80%;
+    }
+
+    .name label ,
+    .surname label ,
+    .login label ,
+    .birthday label ,
+    .email label ,
+    .password label {
+        font-weight: 700;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .name input[type='text'] ,
+    .surname input[type='text'] ,
+    .login input[type='text'] ,
+    .birthday input[type='date'] ,
+    .email input[type='email'] ,
+    .password input[type='password'],
+    .passwordInput input[type="text"] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    .name input[type='text']::placeholder ,
+    .surname input[type='text']::placeholder ,
+    .login input[type='text']::placeholder ,
+    .email input[type='email']::placeholder ,
+    .password input[type='password']::placeholder {
+        color: #4e4a4d;
+    }
+
+    .birthday input[type="date"]::-webkit-datetime-edit-text,
+    .birthday input[type="date"]::-webkit-datetime-edit-month-field,
+    .birthday input[type="date"]::-webkit-datetime-edit-day-field,
+    .birthday input[type="date"]::-webkit-datetime-edit-year-field {
+        color: #4e4a4d;
+    }
+
+    .name input:-webkit-autofill,
+    .name input:-webkit-autofill:hover,
+    .name input:-webkit-autofill:focus,
+    .name input:-webkit-autofill:active ,
+    .surname input:-webkit-autofill,
+    .surname input:-webkit-autofill:hover,
+    .surname input:-webkit-autofill:focus,
+    .surname input:-webkit-autofill:active ,
+    .login input:-webkit-autofill,
+    .login input:-webkit-autofill:hover,
+    .login input:-webkit-autofill:focus,
+    .login input:-webkit-autofill:active ,
+    .birthday input:-webkit-autofill,
+    .birthday input:-webkit-autofill:hover,
+    .birthday input:-webkit-autofill:focus,
+    .birthday input:-webkit-autofill:active ,
+    .email input:-webkit-autofill,
+    .email input:-webkit-autofill:hover,
+    .email input:-webkit-autofill:focus,
+    .email input:-webkit-autofill:active ,
+    .password input:-webkit-autofill,
+    .password input:-webkit-autofill:hover,
+    .password input:-webkit-autofill:focus,
+    .password input:-webkit-autofill:active,
+    .text input:-webkit-autofill,
+    .text input:-webkit-autofill:hover,
+    .text input:-webkit-autofill:focus,
+    .text input:-webkit-autofill:active {
+        border-radius: 5px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #ffffff;
+        transition: background-color 5000s ease-in-out 0s;
+        box-shadow: inset 0 0 20px 20px #ffffff00;
+        font-size: 16px;
+    }
+
+    .passwordInput {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .passwordInput input {
+        width: 85%;
+    }
+
+    .passwordButton  {
+        margin: 0;
+        padding: 5px 20px;
+        width: 15%;
+        height: 10%;
+        text-align: center;  
+    }
+
+    .form button {
+        margin-top: 10px;
+    }
+
+    .form button:hover {
+        box-shadow: 0 3px 7px 0 #a77cf7;    
+        transition: 0.5s;
+    }
+}
+
+
+@media (orientation: portrait) {
+    
+    .wrapper {
+        position: relative;
+        height: 95vh;
+    }
+    
+    .wrapper img {
+        margin-top: 2vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 99%;
+        width: 95%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .container {
+        margin-top: 2vh;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 90%;
+        width: 80%;
+        border-radius: 30px;
+        backdrop-filter: blur(20px);
+        background: linear-gradient(134deg, #f4f4f466 0%, #f4f4f433 100%);
+    }
+
+    .greeting {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .greetingTitle {
+        margin: 10px auto;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 50%;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #3e3e44;
+    }
+
+    .question {
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .questionAboutAccount {
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fffefe;
+    }
+
+    .signIn {
+        margin: 0;
+        padding: 5px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 120%;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #e3e3f8;
+    }
+
+    .signIn:hover {
+        color: #222225;
+        background: #e6e6ee44;
+        border-radius: 5px;
+        box-shadow: 0 3px 7px 0 #a77cf7;    
+        transition: 0.5s;
+    }
+
+    .form {
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name ,
+    .surname ,
+    .login ,
+    .birthday ,
+    .email ,
+    .password {
+        margin: 3px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .name label ,
+    .surname label ,
+    .login label ,
+    .birthday label ,
+    .email label ,
+    .password label {
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .name input[type='text'] ,
+    .surname input[type='text'] ,
+    .login input[type='text'] ,
+    .birthday input[type='date'] ,
+    .email input[type='email'] ,
+    .password input[type='password'],
+    .passwordInput input[type="text"] {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    .name input[type='text']::placeholder ,
+    .surname input[type='text']::placeholder ,
+    .login input[type='text']::placeholder ,
+    .email input[type='email']::placeholder ,
+    .password input[type='password']::placeholder {
+        color: #4e4a4d;
+    }
+
+    .birthday input[type="date"]::-webkit-datetime-edit-text,
+    .birthday input[type="date"]::-webkit-datetime-edit-month-field,
+    .birthday input[type="date"]::-webkit-datetime-edit-day-field,
+    .birthday input[type="date"]::-webkit-datetime-edit-year-field {
+        color: #4e4a4d;
+    }
+
+    .name input:-webkit-autofill,
+    .name input:-webkit-autofill:hover,
+    .name input:-webkit-autofill:focus,
+    .name input:-webkit-autofill:active ,
+    .surname input:-webkit-autofill,
+    .surname input:-webkit-autofill:hover,
+    .surname input:-webkit-autofill:focus,
+    .surname input:-webkit-autofill:active ,
+    .login input:-webkit-autofill,
+    .login input:-webkit-autofill:hover,
+    .login input:-webkit-autofill:focus,
+    .login input:-webkit-autofill:active ,
+    .birthday input:-webkit-autofill,
+    .birthday input:-webkit-autofill:hover,
+    .birthday input:-webkit-autofill:focus,
+    .birthday input:-webkit-autofill:active ,
+    .email input:-webkit-autofill,
+    .email input:-webkit-autofill:hover,
+    .email input:-webkit-autofill:focus,
+    .email input:-webkit-autofill:active ,
+    .password input:-webkit-autofill,
+    .password input:-webkit-autofill:hover,
+    .password input:-webkit-autofill:focus,
+    .password input:-webkit-autofill:active,
+    .text input:-webkit-autofill,
+    .text input:-webkit-autofill:hover,
+    .text input:-webkit-autofill:focus,
+    .text input:-webkit-autofill:active {
+        border-radius: 5px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #ffffff;
+        transition: background-color 5000s ease-in-out 0s;
+        box-shadow: inset 0 0 20px 20px #ffffff00;
+        font-size: 16px;
+    }
+
+    .passwordInput {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .passwordInput input {
+        width: 70%;
+    }
+
+    .passwordButton  {
+        margin: 0;
+        padding: 5px 20px;
+        width: 30%;
+        height: 10%;
+        text-align: center;  
+    }
+
+    .form button {
+        margin-top: 5px;
+    }
+
+    .form button:hover {
+        box-shadow: 0 3px 7px 0 #a77cf7;    
+        transition: 0.5s;
+    }
+}

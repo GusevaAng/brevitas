@@ -1,0 +1,385 @@
+
+
+@media (min-width: 769px) and (orientation: landscape) {
+
+    .container {
+        max-width: 970px;
+        min-height: 700px;
+        margin: 50px auto;
+        padding: 0 15px;
+        height: 480px;
+    }
+
+    .tabSection {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 30px;
+        line-height: 120%;
+        letter-spacing: 0.17em;
+    }
+
+    .title.light {
+        color: #676770;
+    }
+
+    .title.dark {
+        color: #ce96fb;
+    }
+
+    .description {
+        font-size: 17px;
+        line-height: 118%;
+        letter-spacing: 0.18em;
+    }
+
+    .description.light {
+        color: #8e8e9c;
+    }
+
+    .description.dark {
+        color: #cfcfcf;
+    }
+
+    .examples {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+
+    }
+
+    .buttons button {
+        padding: 10px 60px;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+
+    .buttons.light button {
+        color: #393939;
+        border: solid 2px #818384;
+        background: #abaaaa35;
+    }
+
+    .buttons.dark button {
+        color: #cfcfcf;
+        border: solid 2px #5e5f62;
+        background: #6e6e6e4c;
+    }
+
+    .examples img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .examplesTitle {
+        margin: 15px auto;
+        margin-top: 25px;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 116%;
+        text-align: center;
+    }
+
+    .examplesTitle.light {
+        color: #676770;
+    }
+
+    .examplesTitle.dark {
+        color: #00bcf9;
+    }
+
+    .examplesDescription{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 192%;
+        text-align: center;
+    }
+
+    .examplesDescription.light {
+        color: #6a859c;
+    }
+
+    .examplesDescription.dark {
+        color: #cfcfcf;
+    }
+
+    hr {
+        margin: 30px auto;
+    }
+}
+
+
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    .container {
+        max-width: 670px;
+        min-height: 700px;
+        margin: 40px auto;
+        padding: 0 10px;
+        height: 480px;
+    }
+
+    .tabSection {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 25px;
+        line-height: 120%;
+        letter-spacing: 0.17em;
+    }
+
+    .title.light {
+        color: #676770;
+    }
+
+    .title.dark {
+        color: #ce96fb;
+    }
+
+    .description {
+        font-size: 15px;
+        line-height: 118%;
+        letter-spacing: 0.18em;
+    }
+
+    .description.light {
+        color: #8e8e9c;
+    }
+
+    .description.dark {
+        color: #cfcfcf;
+    }
+
+    .examples {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .buttons button {
+        padding: 10px 50px;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+    }
+
+    .buttons.light button {
+        color: #393939;
+        border: solid 2px #818384;
+        background: #abaaaa35;
+    }
+
+    .buttons.dark button {
+        color: #cfcfcf;
+        border: solid 2px #5e5f62;
+        background: #6e6e6e4c;
+    }
+
+    .examples img {
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .examplesTitle {
+        margin: 10px auto;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 116%;
+        text-align: center;
+    }
+
+    .examplesTitle.light {
+        color: #676770;
+    }
+
+    .examplesTitle.dark {
+        color: #00bcf9;
+    }
+
+    .examplesDescription {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 192%;
+        text-align: center;
+    }
+
+    .examplesDescription.light {
+        color: #6a859c;
+    }
+
+    .examplesDescription.dark {
+        color: #cfcfcf;
+    }
+
+    hr {
+        margin: 40px auto;
+    }
+}
+
+
+@media (min-device-width: 320px) and (max-device-height: 940px) and (orientation : portrait) {
+
+    .container {
+        max-width: 370px;
+        min-height: 520px;
+        margin: 20px auto;
+        padding: 0 10px;
+        height: 500px;
+    }
+
+    .tabSection {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .title {
+        margin: 0;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.17em;
+    }
+
+    .title.light {
+        color: #676770;
+    }
+
+    .title.dark {
+        color: #ce96fb;
+    }
+
+    .description {
+        font-size: 13px;
+        line-height: 118%;
+        letter-spacing: 0.18em;
+    }
+
+    .description.light {
+        color: #8e8e9c;
+    }
+
+    .description.dark {
+        color: #cfcfcf;
+    }
+
+    .examples {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .buttons button {
+        padding: 5px 13px;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0px 3px 7px 0 #ca9fd7;    
+        transition: 0.5s;
+        font-size: 13px;
+    }
+
+    .buttons.light button {
+        color: #393939;
+        border: solid 2px #818384;
+        background: #abaaaa35;
+    }
+
+    .buttons.dark button {
+        color: #cfcfcf;
+        border: solid 2px #5e5f62;
+        background: #6e6e6e4c;
+    }
+
+    .examples img {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .examplesTitle {
+        margin: 10px auto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 116%;
+        text-align: center;
+    }
+
+    .examplesTitle.light {
+        color: #676770;
+    }
+
+    .examplesTitle.dark {
+        color: #00bcf9;
+    }
+
+    .examplesDescription {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 192%;
+        text-align: center;
+    }
+
+    .examplesDescription.light {
+        color: #6a859c;
+    }
+
+    .examplesDescription.dark {
+        color: #cfcfcf;
+    }
+
+    hr {
+        margin: 20px auto;
+    }
+}
