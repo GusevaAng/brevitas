@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brevitas/static/css/main.683ec6e4.css",
-    "main.js": "/brevitas/static/js/main.51263faa.js",
+    "main.js": "/brevitas/static/js/main.d2788374.js",
     "static/js/453.0f1203f3.chunk.js": "/brevitas/static/js/453.0f1203f3.chunk.js",
     "static/media/background-sign-up.jpg": "/brevitas/static/media/background-sign-up.dac139879bd634c2ce06.jpg",
     "static/media/background-registration-success.jpg": "/brevitas/static/media/background-registration-success.20ad5f631af5ef0a378f.jpg",
@@ -16,11 +16,11 @@
     "static/media/icon-telegram.svg": "/brevitas/static/media/icon-telegram.3c9a332eb421780f44d1553f9128ffc4.svg",
     "index.html": "/brevitas/index.html",
     "main.683ec6e4.css.map": "/brevitas/static/css/main.683ec6e4.css.map",
-    "main.51263faa.js.map": "/brevitas/static/js/main.51263faa.js.map",
+    "main.d2788374.js.map": "/brevitas/static/js/main.d2788374.js.map",
     "453.0f1203f3.chunk.js.map": "/brevitas/static/js/453.0f1203f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.683ec6e4.css",
-    "static/js/main.51263faa.js"
+    "static/js/main.d2788374.js"
   ]
 }
