@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react' 
 import styles from './OurServices.module.css'
-import { ThemeContext } from '../../../../store/ThemeContext'
+import { ThemeContext } from '../ThemeSwitcher/ThemeContext'
 import { cn } from '../../../../constants'
 import services_one from '../../../../assets/main-page/services-one.jpg'
 import services_two from '../../../../assets/main-page/services-two.jpg'

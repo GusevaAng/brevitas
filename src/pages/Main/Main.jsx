@@ -7,8 +7,8 @@ import OurServices from './components/OurServices/OurServices'
 import SomeSection from './components/SomeSection/SomeSection'
 import Contacts from './components/Contacts/Contacts'
 import Footer from './components/Footer/Footer'
-import { ScrollProvider } from '../../store/ScrollContext'
-import { ThemeContext } from '../../store/ThemeContext'
+import { ScrollProvider } from './components/Navigation/ScrollContext'
+import { ThemeContext } from './components/ThemeSwitcher/ThemeContext'
 import { cn } from '../../constants'
 
 

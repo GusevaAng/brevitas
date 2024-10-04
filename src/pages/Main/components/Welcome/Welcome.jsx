@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useRef } from 'react' 
 import styles from './Welcome.module.css'
 import { Link } from 'react-router-dom'
-import { ScrollContext } from '../../../../store/ScrollContext'
-import { ThemeContext } from '../../../../store/ThemeContext'
+import { ScrollContext } from '../Navigation/ScrollContext'
+import { ThemeContext } from '../ThemeSwitcher/ThemeContext'
 import { cn } from '../../../../constants'
 
 

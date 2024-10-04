@@ -3,7 +3,7 @@ import styles from './App.module.css'
 import Main from './pages/Main/Main'
 import SignIn from './pages/SignIn/SignIn'
 import SignUp from './pages/SignUp/SignUp'
-import { ThemeProvider } from './store/ThemeContext'
+import { ThemeProvider } from './pages/Main/components/ThemeSwitcher/ThemeContext'
 import RegistrationSuccess from './pages/RegistrationSuccess/RegistrationSuccess'
 import Account from './pages/Account/Account'
 

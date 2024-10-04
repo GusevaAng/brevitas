@@ -1,6 +1,6 @@
 import React, { useContext } from 'react' 
 import styles from './AboutUs.module.css'
-import { ThemeContext } from '../../../../store/ThemeContext'
+import { ThemeContext } from '../ThemeSwitcher/ThemeContext'
 import { cn } from '../../../../constants'
 import icon_qr from '../../../../assets/main-page/icon-qr.png'
 import icon_discount from '../../../../assets/main-page/icon-discount.png'

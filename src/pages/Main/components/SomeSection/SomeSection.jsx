@@ -1,6 +1,6 @@
 import React, { useContext, useMemo, useState } from 'react' 
 import styles from './SomeSection.module.css'
-import { ThemeContext } from '../../../../store/ThemeContext'
+import { ThemeContext } from '../ThemeSwitcher/ThemeContext'
 import { cn } from '../../../../constants'
 import examples1 from '../../../../assets/main-page/examples1.jpg'
 import examples2 from '../../../../assets/main-page/examples2.jpg'
